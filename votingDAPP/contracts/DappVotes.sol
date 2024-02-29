@@ -21,4 +21,13 @@ contract Voting{
     string[] avatars;
    }
 
+   struct CountestantStruct{
+    uint id;
+    string image;
+    string name;
+    address voter;
+    uint votes;
+    address[] voters;
+}
+
 }
