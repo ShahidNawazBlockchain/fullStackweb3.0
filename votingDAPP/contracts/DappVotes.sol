@@ -30,4 +30,6 @@ contract Voting{
     address[] voters;
 }
 
+
+
 }
